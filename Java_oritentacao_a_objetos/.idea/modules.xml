@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java_oritentacao_a_objetos.iml" filepath="$PROJECT_DIR$/Java_oritentacao_a_objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula01/aula01.iml" filepath="$PROJECT_DIR$/aula01/aula01.iml" />
     </modules>
   </component>
 </project>
