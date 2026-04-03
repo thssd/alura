@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e186a8-b23a-4bcd-81eb-4a3bff1ddfae" name="Changes" comment="feat: método">
+      <change afterPath="$PROJECT_DIR$/aula02/aula02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula02/src/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula02/src/Terminal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
@@ -57,6 +60,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/alura/java/Java_oritentacao_a_objetos",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,7 +92,8 @@
       <workItem from="1775078310155" duration="6879000" />
       <workItem from="1775091145726" duration="338000" />
       <workItem from="1775136196008" duration="816000" />
-      <workItem from="1775138311379" duration="6389000" />
+      <workItem from="1775138311379" duration="7840000" />
+      <workItem from="1775153544079" duration="2739000" />
     </task>
     <task id="LOCAL-00001" summary="feat: método">
       <option name="closed" value="true" />
