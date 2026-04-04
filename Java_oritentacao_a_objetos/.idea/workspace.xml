@@ -5,14 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e186a8-b23a-4bcd-81eb-4a3bff1ddfae" name="Changes" comment="feat: método">
-      <change afterPath="$PROJECT_DIR$/aula02/aula02.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula02/src/ContaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula02/src/Terminal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/aula-01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/src/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Titulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screenmatch/calculo/CalculadoraTempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-02/aula-02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-02/src/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-02/src/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-02/src/IdadePessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-02/src/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-02/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-02/src/Terminal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Filme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/alura/screematch/model/Filme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Alunos.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Alunos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Calculadora.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Carro.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Carro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Musica.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Musica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Terminal.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Terminal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,30 +66,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.Terminal.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/alura/java/Java_oritentacao_a_objetos",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Terminal.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/alura/java/Java_oritentacao_a_objetos&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\alura\java\Java_oritentacao_a_objetos\aula-02" />
+      <recent name="C:\alura\java\Java_oritentacao_a_objetos\aula-01" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -94,6 +117,10 @@
       <workItem from="1775136196008" duration="816000" />
       <workItem from="1775138311379" duration="7840000" />
       <workItem from="1775153544079" duration="2739000" />
+      <workItem from="1775176327354" duration="459000" />
+      <workItem from="1775176795876" duration="6000" />
+      <workItem from="1775176893091" duration="806000" />
+      <workItem from="1775313657957" duration="9455000" />
     </task>
     <task id="LOCAL-00001" summary="feat: método">
       <option name="closed" value="true" />
