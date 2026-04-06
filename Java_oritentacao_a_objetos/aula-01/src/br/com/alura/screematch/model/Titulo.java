@@ -35,12 +35,6 @@ public class Titulo {
         this.incluidoNoPlano = incluidoNoPlano;
     }
 
-
-    //Metodo para retornar o total de avaliações
-    public int getTotalDeAvaliacoes(){
-        return totalDeAvaliacoes;
-    }
-
     //setter para o atributo private int duracao
     public void setDuracao(int duracao) {
         this.duracao = duracao;
@@ -52,7 +46,12 @@ public class Titulo {
         totalDeAvaliacoes++;
     }
 
-    //metodo para retorna a media de avaliação
+    //Metodo para retornar o total de avaliações
+    public int getTotalDeAvaliacoes(){
+        return totalDeAvaliacoes;
+    }
+
+    //metodo para retornar a media de avaliação
     public double pegaMedia(){
         return somasDasAvaliacoes / totalDeAvaliacoes;
     }

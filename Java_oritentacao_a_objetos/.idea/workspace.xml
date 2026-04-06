@@ -8,10 +8,13 @@
       <change afterPath="$PROJECT_DIR$/aula-01/aula-01.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/Conta.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Episodio.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Filme.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Serie.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Titulo.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screenmatch/calculo/CalculadoraTempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screenmatch/calculo/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screenmatch/calculo/FiltroRecomenda.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-02/aula-02.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-02/src/Aluno.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-02/src/ContaBancaria.java" afterDir="false" />
@@ -19,6 +22,32 @@
       <change afterPath="$PROJECT_DIR$/aula-02/src/Livro.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-02/src/Produto.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-02/src/Terminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-03/aula-03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-03/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-03/src/Cachorro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-03/src/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-03/src/Conta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-03/src/ContaCorrete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-03/src/Gato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-03/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-03/src/ModeloCarro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/aula-04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/CalculadoraSalaRetangular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/Calculavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/CalculoGeometrico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/ConversaoFinanceira.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/ConversorMoeda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/ConversorTemperatura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/ConversorTemperaturaPadrao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/ProdutoFisico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/Servico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/Tabuada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/TabuadaMultiplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/Terminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aula-04/src/Vendaval.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../aula4/aula4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Alunos.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Alunos.java" afterDir="false" />
@@ -92,6 +121,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\alura\java\Java_oritentacao_a_objetos\aula-04" />
       <recent name="C:\alura\java\Java_oritentacao_a_objetos\aula-02" />
       <recent name="C:\alura\java\Java_oritentacao_a_objetos\aula-01" />
     </key>
@@ -100,7 +130,6 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
       </set>
     </attachedChunks>
   </component>

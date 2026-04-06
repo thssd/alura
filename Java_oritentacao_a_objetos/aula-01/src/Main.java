@@ -1,6 +1,8 @@
+import br.com.alura.screematch.model.Episodio;
 import br.com.alura.screematch.model.Filme;
 import br.com.alura.screematch.model.Serie;
 import br.com.alura.screenmatch.calculo.CalculadoraTempo;
+import br.com.alura.screenmatch.calculo.FiltroRecomenda;
 
 public class Main {
     static void main() {
@@ -10,7 +12,11 @@ public class Main {
         Serie serie1 = new Serie();
         Serie serie2 = new Serie();
         CalculadoraTempo calculadoraTempo = new CalculadoraTempo();
+        FiltroRecomenda filtroRecomenda = new FiltroRecomenda();
+        Episodio episodio1 = new Episodio();
+        Episodio episodio2 = new Episodio();
 
+        System.out.println("SCREENMATCH");
 
         //Informações do filme1
         filme1.setNome("A origem");
@@ -26,6 +32,8 @@ public class Main {
         filme1.avalia(8);
         filme1.avalia(5);
         filme1.avalia(10);
+        filtroRecomenda.filtra(filme1);
+        System.out.println("Diretor: " + filme1.getDiretor());
         System.out.println("Total de avaliações: " + filme1.getTotalDeAvaliacoes());
         System.out.println("Nota do filme IMDB: " + filme1.pegaMedia());
 
@@ -44,27 +52,33 @@ public class Main {
         filme2.avalia(7.5);
         filme2.avalia(8);
         filme2.avalia(9);
+        filtroRecomenda.filtra(filme2);
+        System.out.println("Diretor: " + filme2.getDiretor());
         System.out.println("Total de avaliações: " + filme2.getTotalDeAvaliacoes());
         System.out.println("Nota do filme no IMDB: " + filme2.pegaMedia());
 
 
         //Informações serie1
-        serie1.setNome("Lost");
-        serie1.setDuracao(40);
-        serie1.setAnoDeLancamento(2000);
+        serie1.setNome("Breaking Bad");
+        serie1.setDuracao(50);
+        serie1.setAnoDeLancamento(2008);
         serie1.setIncluidoNoPlano(true);
+        serie1.setTemporadas(5);
+        serie1.setEpisodiosPorTemporada(16);
+        serie1.setMinutosPorEpisodio(50);
 
         //Exibição informações serie1
         serie1.exibeFichaTecnica();
 
-        //Informações de duração serie1
-        serie1.setTemporadas(10);
-        serie1.setEpisodiosPorTemporada(10);
-        serie1.setMinutosPorEpisodio(50);
-
-        //Exibição da duração serie1
+        //Notas serie1
+        serie1.avalia(10);
+        serie1.avalia(9);
+        serie1.avalia(8.5);
+        filtroRecomenda.filtra(serie1);
+        System.out.println("Episódios por termporada: " + serie1.getEpisodiosPorTemporada());
         System.out.println("Temporadas: " + serie1.getTemporadas());
         System.out.println("Duração para maratonar a série: " + serie1.getDuracao());
+        System.out.println("Nota da série no IMDB: " + serie1.pegaMedia());
 
 
         //Informações serie2
@@ -72,18 +86,22 @@ public class Main {
         serie2.setDuracao(50);
         serie2.setAnoDeLancamento(2011);
         serie2.setIncluidoNoPlano(false);
-
-        //Exibição informações serie2
-        serie2.exibeFichaTecnica();
-
-        //Informações de duração serie2
         serie2.setTemporadas(8);
         serie2.setEpisodiosPorTemporada(10);
         serie2.setMinutosPorEpisodio(50);
 
-        //Exibição duração serie2
+        //Exibição informações serie2
+        serie2.exibeFichaTecnica();
+
+        //Notas da serie2
+        serie2.avalia(10);
+        serie2.avalia(8.5);
+        serie2.avalia(5);
+        filtroRecomenda.filtra(serie2);
+        System.out.println("Episódios por temporada: " + serie2.getEpisodiosPorTemporada());
         System.out.println("Temporadas: " + serie2.getTemporadas());
         System.out.println("Duração para maratonar a série: " + serie2.getDuracao());
+        System.out.println("Nota da série no IMDB: " + serie2.pegaMedia());
 
 
 
@@ -94,5 +112,19 @@ public class Main {
         calculadoraTempo.inclui(serie2);
         calculadoraTempo.getTempoTotal();
         System.out.println("\nTotal de horas: " + calculadoraTempo.getTempoTotal());
+
+        //Para episodio1
+        episodio1.setNumero(59);
+        episodio1.setNome("Ozymandias");
+        episodio1.setTotalVisualizacoes(2500000);
+        episodio1.setSerie(serie1);
+        filtroRecomenda.filtra(episodio1);
+
+        //Para episodio2
+        episodio2.setNumero(39);
+        episodio2.setNome("Casamento Vermelho");
+        episodio2.setSerie(serie2);
+        episodio2.setTotalVisualizacoes(3000000);
+        filtroRecomenda.filtra(episodio2);
     }
 }
