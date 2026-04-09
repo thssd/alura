@@ -5,6 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e186a8-b23a-4bcd-81eb-4a3bff1ddfae" name="Changes" comment="feat: método">
+      <change afterPath="$PROJECT_DIR$/../Desafio/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Desafio/Desafio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio/Desafio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio/src/br/com/minhasmusicas/model/Audio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio/src/br/com/minhasmusicas/model/Musica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio/src/br/com/minhasmusicas/model/Podcast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Desafio/src/br/com/minhasmusicas/view/Terminal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/aula-01.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/Conta.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/Main.java" afterDir="false" />
@@ -47,7 +57,6 @@
       <change afterPath="$PROJECT_DIR$/aula-04/src/TabuadaMultiplicacao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-04/src/Terminal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-04/src/Vendaval.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula4/aula4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Alunos.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Alunos.java" afterDir="false" />
@@ -121,6 +130,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\alura\java\Java_oritentacao_a_objetos\Desafio" />
       <recent name="C:\alura\java\Java_oritentacao_a_objetos\aula-04" />
       <recent name="C:\alura\java\Java_oritentacao_a_objetos\aula-02" />
       <recent name="C:\alura\java\Java_oritentacao_a_objetos\aula-01" />

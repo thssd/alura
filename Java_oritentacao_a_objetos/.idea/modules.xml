@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Desafio/Desafio.iml" filepath="$PROJECT_DIR$/Desafio/Desafio.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java_oritentacao_a_objetos.iml" filepath="$PROJECT_DIR$/Java_oritentacao_a_objetos.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula-01/aula-01.iml" filepath="$PROJECT_DIR$/aula-01/aula-01.iml" />
       <module fileurl="file://$PROJECT_DIR$/aula-02/aula-02.iml" filepath="$PROJECT_DIR$/aula-02/aula-02.iml" />
