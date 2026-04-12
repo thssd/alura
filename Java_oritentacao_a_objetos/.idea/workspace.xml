@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e186a8-b23a-4bcd-81eb-4a3bff1ddfae" name="Changes" comment="feat: método">
-      <change afterPath="$PROJECT_DIR$/../Desafio/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Desafio/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Desafio/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Desafio/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Desafio/Desafio.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/Java_listas_colecoes_de_dados.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screematch/model/Episodio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screematch/model/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screematch/model/Serie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screematch/model/Titulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screenmatch/calculo/CalculadoraTempo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screenmatch/calculo/Classificavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screenmatch/calculo/FiltroRecomenda.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Desafio/Desafio.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Desafio/src/br/com/minhasmusicas/model/Audio.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Desafio/src/br/com/minhasmusicas/model/Musica.java" afterDir="false" />
@@ -18,13 +26,6 @@
       <change afterPath="$PROJECT_DIR$/aula-01/aula-01.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/Conta.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-01/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Episodio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screematch/model/Titulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screenmatch/calculo/CalculadoraTempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screenmatch/calculo/Classificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aula-01/src/br/com/alura/screenmatch/calculo/FiltroRecomenda.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-02/aula-02.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-02/src/Aluno.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-02/src/ContaBancaria.java" afterDir="false" />
@@ -83,6 +84,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
