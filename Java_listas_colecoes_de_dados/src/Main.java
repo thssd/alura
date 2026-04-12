@@ -9,11 +9,11 @@ import java.util.ArrayList;
 public class Main {
     static void main() {
         //Instanciação de classes
-        Filme filme1 = new Filme();
-        Filme filme2 = new Filme();
-        Filme filme3 = new Filme();
-        Serie serie1 = new Serie();
-        Serie serie2 = new Serie();
+        Filme filme1 = new Filme("A Origem", 2010);
+        Filme filme2 = new Filme("Clube da Luta", 1999);
+        Filme filme3 = new Filme("O Lobo de Wall Street", 2013);
+        Serie serie1 = new Serie("Breaking Bad", 2008);
+        Serie serie2 = new Serie("Game of Thrones", 2011);
         CalculadoraTempo calculadoraTempo = new CalculadoraTempo();
         FiltroRecomenda filtroRecomenda = new FiltroRecomenda();
         Episodio episodio1 = new Episodio();
@@ -22,9 +22,7 @@ public class Main {
         System.out.println("SCREENMATCH");
 
         //Informações do filme1
-        filme1.setNome("A origem");
         filme1.setDuracao(180);
-        filme1.setAnoDeLancamento(2010);
         filme1.setIncluidoNoPlano(true);
         filme1.setDiretor("Christopher Nolan");
 
@@ -42,9 +40,7 @@ public class Main {
 
 
         //Informações do filme2
-        filme2.setNome("Clube da Luta");
         filme2.setDuracao(160);
-        filme2.setAnoDeLancamento(1999);
         filme2.setIncluidoNoPlano(true);
         filme2.setDiretor("David Fincher");
 
@@ -61,9 +57,7 @@ public class Main {
         System.out.println("Nota do filme no IMDB: " + filme2.pegaMedia());
 
         //Informações do filme3
-        filme3.setNome("O Lobo de Wall Street");
         filme3.setDuracao(190);
-        filme3.setAnoDeLancamento(2013);
         filme3.setIncluidoNoPlano(true);
         filme3.setDiretor("Martin Scorcese");
 
@@ -79,19 +73,9 @@ public class Main {
         System.out.println("Total de avaliações: " + filme3.getTotalDeAvaliacoes());
         System.out.println("Nota do filme no IMDB: " + filme3.pegaMedia());
 
-        //Exemplo arrays
-        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
-        listaDeFilmes.add(filme1);
-        listaDeFilmes.add(filme2);
-        listaDeFilmes.add(filme3);
-        System.out.println("\nTamanho da lista: " + listaDeFilmes.size());
-        System.out.println("Primeiro filme: " + listaDeFilmes.get(2).getNome());
-
 
         //Informações serie1
-        serie1.setNome("Breaking Bad");
         serie1.setDuracao(50);
-        serie1.setAnoDeLancamento(2008);
         serie1.setIncluidoNoPlano(true);
         serie1.setTemporadas(5);
         serie1.setEpisodiosPorTemporada(16);
@@ -112,9 +96,7 @@ public class Main {
 
 
         //Informações serie2
-        serie2.setNome("Game of Thrones");
         serie2.setDuracao(50);
-        serie2.setAnoDeLancamento(2011);
         serie2.setIncluidoNoPlano(false);
         serie2.setTemporadas(8);
         serie2.setEpisodiosPorTemporada(10);
@@ -134,7 +116,6 @@ public class Main {
         System.out.println("Nota da série no IMDB: " + serie2.pegaMedia());
 
 
-
         //Calculadora para descobir o total de horas de todos os conteudos do site
         calculadoraTempo.inclui(filme1);
         calculadoraTempo.inclui(filme2);
@@ -143,12 +124,14 @@ public class Main {
         calculadoraTempo.getTempoTotal();
         System.out.println("\nTotal de horas: " + calculadoraTempo.getTempoTotal());
 
+
         //Para episodio1
         episodio1.setNumero(59);
         episodio1.setNome("Ozymandias");
         episodio1.setTotalVisualizacoes(2500000);
         episodio1.setSerie(serie1);
         filtroRecomenda.filtra(episodio1);
+
 
         //Para episodio2
         episodio2.setNumero(39);
@@ -157,6 +140,15 @@ public class Main {
         episodio2.setTotalVisualizacoes(3000000);
         filtroRecomenda.filtra(episodio2);
 
-        
+
+        //Exemplo arrays
+        ArrayList<Filme> listaDeFilmes = new ArrayList<>();
+        listaDeFilmes.add(filme1);
+        listaDeFilmes.add(filme2);
+        listaDeFilmes.add(filme3);
+        System.out.println("\nTamanho da lista: " + listaDeFilmes.size());
+        System.out.println("Primeiro filme: " + listaDeFilmes.get(0).getNome());
+        System.out.println("Lista de filmes: " + listaDeFilmes);
+
     }
 }
