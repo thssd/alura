@@ -5,19 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33e186a8-b23a-4bcd-81eb-4a3bff1ddfae" name="Changes" comment="feat: método">
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/Java_listas_colecoes_de_dados.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screematch/model/Episodio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screematch/model/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screematch/model/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screematch/model/Titulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screenmatch/calculo/CalculadoraTempo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screenmatch/calculo/Classificavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/screenmatch/calculo/FiltroRecomenda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/aula03.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/src/Atleta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/src/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/src/ContaBancaria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/src/Forma.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/src/Jogadores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/src/Piloto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/src/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/src/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/aula03/src/Terminal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/sreenmatch/principal/Listas.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Desafio/Desafio.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Desafio/src/br/com/minhasmusicas/model/Audio.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Desafio/src/br/com/minhasmusicas/model/Musica.java" afterDir="false" />
@@ -58,6 +56,8 @@
       <change afterPath="$PROJECT_DIR$/aula-04/src/TabuadaMultiplicacao.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-04/src/Terminal.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/aula-04/src/Vendaval.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Java_listas_colecoes_de_dados/src/br/com/alura/sreenmatch/principal/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Alunos.java" beforeDir="false" afterPath="$PROJECT_DIR$/aula-01/src/Alunos.java" afterDir="false" />

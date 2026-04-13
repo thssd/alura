@@ -1,3 +1,5 @@
+package br.com.alura.sreenmatch.principal;
+
 import br.com.alura.screematch.model.Episodio;
 import br.com.alura.screematch.model.Filme;
 import br.com.alura.screematch.model.Serie;
