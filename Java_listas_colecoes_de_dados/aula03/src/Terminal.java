@@ -25,10 +25,8 @@ public class Terminal {
         //listaAtletas.forEach(nome -> System.out.println(nome));
 
         for (Atleta nomes: listaAtletas){
-            if (nomes instanceof Atleta) {
-                Atleta atleta = (Atleta) nomes;
+                Atleta atleta = nomes;
                 System.out.println(atleta.getNome());
-            }
         }
 
         //Exercicio 4
@@ -70,5 +68,6 @@ public class Terminal {
             System.out.println(cb.getSaldo());
         }
         System.out.println("Maior saldo: " + maior);
+
     }
 }

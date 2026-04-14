@@ -4,7 +4,7 @@ import br.com.alura.screematch.model.Filme;
 import br.com.alura.screematch.model.Serie;
 import br.com.alura.screematch.model.Titulo;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Listas {
     static void main() {
@@ -17,7 +17,7 @@ public class Listas {
         filme2.avalia(8);
         filme3.avalia(10);
 
-        ArrayList<Titulo> listaDeAssistidos = new ArrayList<>();
+        List<Titulo> listaDeAssistidos = new LinkedList<>();
         listaDeAssistidos.add(filme1);
         listaDeAssistidos.add(filme2);
         listaDeAssistidos.add(filme3);
@@ -28,5 +28,20 @@ public class Listas {
                 System.out.println("Classificação: " + filme.getClassificacao());
             }
         }
+
+        ArrayList<String> buscaPorArtista = new ArrayList<>();
+        buscaPorArtista.add("Adam Sancdler");
+        buscaPorArtista.add("Steve Carell");
+        buscaPorArtista.add("Chris Rock");
+        System.out.println(buscaPorArtista);
+
+        Collections.sort(buscaPorArtista);
+        System.out.println("Ordenados: " + buscaPorArtista);
+
+        Collections.sort(listaDeAssistidos);
+        System.out.println("Ordenação: " + listaDeAssistidos);
+
+        listaDeAssistidos.sort(Comparator.comparing(Titulo::getAnoDeLancamento));
+        System.out.println("Ordenando por ano: " + listaDeAssistidos);
     }
 }
