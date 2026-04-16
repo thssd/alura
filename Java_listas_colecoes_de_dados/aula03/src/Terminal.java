@@ -26,7 +26,7 @@ public class Terminal {
 
         for (Atleta nomes: listaAtletas){
                 Atleta atleta = nomes;
-                System.out.println(atleta.getNome());
+                System.out.println(atleta.getNome() + " " + atleta.getIdade());
         }
 
         //Exercicio 4
