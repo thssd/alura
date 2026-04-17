@@ -20,6 +20,8 @@ public class ConsumindoAPI {
         System.out.println("Digite um filme: ");
         var busca = leitor.nextLine();
 
+        try{
+
         var endereco = "http://www.omdbapi.com/?t=" + busca + "&apikey=2bf588d1";
 
         HttpClient client = HttpClient.newHttpClient();
@@ -37,7 +39,15 @@ public class ConsumindoAPI {
         TituloOmdb meuTituloOmdb = gson.fromJson(json, TituloOmdb.class);
         System.out.println(meuTituloOmdb);
 
-        Titulo meuTitulo = new Titulo(meuTituloOmdb);
-        System.out.println(meuTitulo);
+        //try{
+            Titulo meuTitulo = new Titulo(meuTituloOmdb);
+            System.out.println(meuTitulo);
+        } catch (NumberFormatException e){
+            System.out.println("Aconteceu um erro: " + e.getMessage());
+        } catch (IllegalArgumentException e){
+            System.out.println("Erro no endereço: " + e.getMessage());
+        }
+
+        System.out.println("O programa rodou corretamente");
     }
 }
