@@ -1,3 +1,5 @@
+import com.google.gson.Gson;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -12,7 +14,7 @@ public class Receita {
         System.out.println("Digite uma receita:");
         var busca = leitor.nextLine();
 
-        var endereco = "https://www.themealdb.com/api/json/v1/1/search.php?s="ri + busca;
+        var endereco = "https://www.themealdb.com/api/json/v1/1/search.php?s=" + busca;
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -22,5 +24,7 @@ public class Receita {
                 .send(request, HttpResponse.BodyHandlers.ofString());
 
         System.out.println(response.body());
+
+
     }
 }
