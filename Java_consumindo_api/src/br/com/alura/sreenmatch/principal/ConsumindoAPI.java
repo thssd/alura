@@ -1,5 +1,6 @@
 package br.com.alura.sreenmatch.principal;
 
+import br.com.alura.screematch.excecoes.YearConvertionErrorException;
 import br.com.alura.screematch.model.Titulo;
 import br.com.alura.screematch.model.TituloOmdb;
 import com.google.gson.FieldNamingPolicy;
@@ -22,7 +23,7 @@ public class ConsumindoAPI {
 
         try{
 
-        var endereco = "http://www.omdbapi.com/?t=" + busca + "&apikey=2bf588d1";
+        var endereco = "http://www.omdbapi.com/?t=" + busca.replace(" ", "+") + "&apikey=2bf588d1";
 
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -46,6 +47,8 @@ public class ConsumindoAPI {
             System.out.println("Aconteceu um erro: " + e.getMessage());
         } catch (IllegalArgumentException e){
             System.out.println("Erro no endereço: " + e.getMessage());
+        } catch (YearConvertionErrorException e){
+            System.out.println(e.getMessage());
         }
 
         System.out.println("O programa rodou corretamente");
