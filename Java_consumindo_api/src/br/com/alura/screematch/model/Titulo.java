@@ -24,7 +24,7 @@ public class Titulo implements Comparable<Titulo>{
             throw new YearConvertionErrorException("Ano inválido.");
         }
         this.anoDeLancamento = Integer.valueOf(meuTituloOmdb.year());
-        this.duracao = Integer.valueOf(meuTituloOmdb.runtime().substring(0, 3));
+        this.duracao = Integer.valueOf(meuTituloOmdb.runtime().substring(0, 2));
     }
 
     //exemplo getters
@@ -88,6 +88,6 @@ public class Titulo implements Comparable<Titulo>{
 
     @Override
     public String toString() {
-        return "nome: " + nome + ", ano de lançamento: " + anoDeLancamento + ", duração: " + duracao;
+        return "(nome: " + nome + " | ano de lançamento: " + anoDeLancamento + " | duração: " + duracao + ")";
     }
 }
