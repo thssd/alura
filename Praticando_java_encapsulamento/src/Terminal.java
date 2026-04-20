@@ -84,6 +84,15 @@ public class Terminal {
         pontos.exibirStatus();
 
         //exercicio 10
+        Disciplina disciplina = new Disciplina("Matemática");
 
+        disciplina.validaNota(10);
+        disciplina.validaNota(-5);
+        disciplina.validaNota(7);
+        disciplina.validaNota(11);
+        disciplina.validaNota(5);
+        disciplina.validaNota(9.5);
+
+        disciplina.exibeMedia();
     }
 }
