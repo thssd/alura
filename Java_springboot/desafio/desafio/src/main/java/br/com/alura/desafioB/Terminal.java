@@ -1,6 +1,5 @@
 package br.com.alura.desafioB;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
