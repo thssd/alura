@@ -71,5 +71,7 @@ public class Terminal {
                 .limit(3)
                 .collect(Collectors.toList());
         System.out.println(newList);
+
+
     }
 }
